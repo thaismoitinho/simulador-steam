@@ -55,16 +55,16 @@ public class Jogo {
         this.qtdJogos = qtdJogos;
     }
 
-    public void RetornarNomeJogo() {
+    public void retornarNomeJogo() {
         System.out.println("O jogo escolhido para a compra é " + nome);
     }
 
-    public void RetornarValorTotal(){
+    public void retornarValorTotal(){
         Double resultado = qtdJogos * valor;
         System.out.println("Você selecinou " + qtdJogos + " jogos, no valor de " + valor + " cada. Totalizando o valor da compra em: " + resultado);
     }
 
-    public void RetornarIdadeJogo() {
+    public void retornarIdadeJogo() {
         Integer anoAtual = 2024;
         Integer idadeJogo = (anoAtual - anoLancamento);
 

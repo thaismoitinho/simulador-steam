@@ -14,20 +14,11 @@ public class Steam {
 
         leitor.nextLine();
 
-        compra1.RetornarNomeJogo();
-        compra1.RetornarIdadeJogo();
-        compra1.RetornarValorTotal();
+        compra1.retornarNomeJogo();
+        compra1.retornarIdadeJogo();
+        compra1.retornarValorTotal();
         leitor.nextLine();
 
-        compra2.RetornarNomeJogo();
-        compra2.RetornarIdadeJogo();
-        compra2.RetornarValorTotal();
-        leitor.nextLine();
 
-        compra3.RetornarNomeJogo();
-        compra3.RetornarIdadeJogo();
-        compra3.RetornarValorTotal();
-        leitor.nextLine();
-    }
 
 }
